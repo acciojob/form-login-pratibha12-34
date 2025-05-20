@@ -5,6 +5,6 @@ function getFormvalue(e) {
 	let btn=document.getElementByID("btn");
 	btn.addEventListener("onclick",(e)=>{
 		
-		alert(`${fname.value}`);
+		alert("bygyhvh");
 		
 	});}
