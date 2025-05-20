@@ -7,4 +7,4 @@ function getFormvalue(e) {
 		
 		alert("bygyhvh");
 		
-	});}
+	})}
