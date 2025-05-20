@@ -1,9 +1,10 @@
 function getFormvalue(e) {
     //Write your code here
-	e.preventDefault()
-	let form =document.querySelector("form");
-	form.addEventListener("submit",(e)=>{
-		let fname= document.getElementById("fname");
-		console.log("hi");
+	let fname= document.getElementById("fname");
+	let lname= document.getElementById("lname");
+	let btn=document.querySelector("btn");
+	btn.addEventListener("onclick",(e)=>{
 		
-	})}
+		alert(`${fname.value}`);
+		
+	});}
